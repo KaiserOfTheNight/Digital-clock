@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+.heure{
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    background-image: linear-gradient( 291.7deg, rgb(86 56 110) 21.5%, rgb(253 241 250 / 12%) 93.1% );
+    box-shadow: 0 0 25px rgb(86 56 110);
+    color: white;
+    transition: 1s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.heure:hover{
+    box-shadow: 0 0 5px rgb(86 56 110),
+                0 0 25px rgb(86 56 110),
+                0 0 50px rgb(86 56 110),
+                0 0 100px rgb(86 56 110);
+}
